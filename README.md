@@ -14,3 +14,6 @@ JSON Format for post
   "id": 1,
   "status":"OK"
 }
+
+#command
+docker-compose up
