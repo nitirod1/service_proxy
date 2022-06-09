@@ -1,9 +1,5 @@
 # service_proxy
-Port in service <br/>(port computer):(port docker)
-<pre>
-service1 8081:8081
-service2 8080:8080
-</pre>
+
 #GET <br/>service1
 http://localhost:8081/message 
 
