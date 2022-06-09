@@ -1,12 +1,12 @@
 # service_proxy
 
-#Get <br/>service1
+#GET <br/>service1
 http://localhost:8081/message 
 
-#Get <br/>service2
+#GET <br/>service2
 http://localhost:8080/ew
 
-#Post <br/>service2
+#POST <br/>service2
 http://localhost:8080/addRes
 
 JSON Format for post 
