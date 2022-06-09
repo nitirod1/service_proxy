@@ -27,13 +27,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class RequestMessage {
   WebClient client = WebClient.create();
   @GetMapping()
-  @PostConstruct
   public String text(){
     WebClient.ResponseSpec responseSpec = client.get()
-    .uri("http://localhost:8083/ew")
+    .uri("http://localhost:8080/ew")
     .retrieve();
     String responseBody = responseSpec.bodyToMono(String.class).block();
     return responseBody;
-  }
-  
+  } 
 }

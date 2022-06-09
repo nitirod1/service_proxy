@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  service1:
+    build: ./service1
+    restart: on-failure
+    ports:
+      - 8081:8081
+  service2:
+    build: ./service2
+    restart: on-failure
+    ports:
+      - 8080:8080
