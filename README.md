@@ -17,7 +17,7 @@ JSON Format for post
 }
 </pre>
 
-#command
+#command Docker
 <pre>
 docker-compose up
 </pre>
